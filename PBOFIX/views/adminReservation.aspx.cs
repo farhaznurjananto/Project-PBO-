@@ -68,12 +68,16 @@ namespace PBOFIX.views.admin
             query = "UPDATE room SET room_status =true WHERE room_number = @room_number;";
             room.room_number = Convert.ToInt32(txtroomnumber.Text);
             room.Update(query);
+
+            reservationAdmin.id_customer = Convert.ToInt32(txtiduser.Text);
+            reservationAdmin.Update_data();
         }
 
         // CLEAR
         void CLEAR()
         {
             txtroomnumber.Text = "";
+            txtiduser.Text = "";
         }
     }
 }

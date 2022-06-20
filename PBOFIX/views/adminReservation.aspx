@@ -27,9 +27,17 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <label>Reservation Room Number</label>
+                                    <label>Room Number</label>
                                     <div class="form-group">
                                         <asp:TextBox CssClass="form-control" ID="txtroomnumber" runat="server" placeholder="Room Number" TextMode="Number"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label>User Id</label>
+                                    <div class="form-group">
+                                        <asp:TextBox CssClass="form-control" ID="txtiduser" runat="server" placeholder="Customer Id" TextMode="Number"></asp:TextBox>
                                     </div>
                                 </div>
                             </div>
