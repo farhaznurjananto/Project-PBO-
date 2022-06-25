@@ -47,7 +47,7 @@ CREATE TABLE reservation(
 	reservation_date DATE NOT NULL DEFAULT CURRENT_DATE,
 	reservation_checkin DATE NOT NULL,
 	reservation_checkout DATE NOT NULL,
-	reservation_status BOOLEAN DEFAULT FALSE;
+	reservation_status BOOLEAN DEFAULT FALSE,
 	id_admin INT NOT NULL DEFAULT 1,
 	id_room INT NOT NULL,
 	id_customer INT NOT NULL,
