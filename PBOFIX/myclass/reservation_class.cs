@@ -64,7 +64,7 @@ namespace PBOFIX.myclass
             }
         }
 
-        // UPDATE FOR USER
+        // UPDATE
         public void Update_data()
         {
             connectdb.Open();
